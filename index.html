@@ -8,10 +8,61 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
     <title>Conversor</title>
 </head>
 
 <body>
+
+
+    <img class="img-logo" src="./assets/logo.gif" alt="logo dod conversor">
+
+    <main>
+        <label>
+            Converter <b>de</b>
+            <select>
+                <option>R$ Real brasileiro</option>
+            </select>
+        </label>
+
+        <label>
+            Converter <b>para</b>
+            <select>
+                <option>US$ Dólar americano</option>
+                <option>€ Euro</option>
+            </select>
+        </label>
+
+        <label>
+            <b>Valor</b>
+            <input placeholder="R$ 10.000,00">
+        </label>
+
+        <button>Converter</button>
+
+
+        <section class="container">
+
+            <div class="currency-box">
+
+                <img class="currency-img-convert" src="./assets/real.png" alt="brazil-currency">
+                <p class="currency">Real</p>
+                <p class="currency-value-convert">R$ 0,00</p>
+
+            </div>
+
+            <img class="arrow" src="./assets/arrow.png" alt="arrow">
+
+            <div class="currency-box">
+
+                <img class="currency-img-converted" src="./assets/dolar.png" alt="usa-currency">
+                <p class="currency">Dólar americano</p>
+                <p class="currency-value-converted">US$ 0,00</p>
+
+            </div>
+
+        </section>
+    </main>
 
 </body>
 
